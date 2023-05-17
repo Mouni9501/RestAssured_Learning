@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Library_Api_Using_Testng">
+      <class name="comText.Library_Api_Using_Testng">
         <methods>
           <include name="addBook"/>
         </methods>
-      </class> <!-- com.Library_Api_Using_Testng -->
+      </class> <!-- comText.Library_Api_Using_Testng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
