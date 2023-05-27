@@ -11,7 +11,7 @@ public class Payload {
 				+ "  \"accuracy\": 50,\r\n"
 				+ "  \"name\": \"karapakkam\",\r\n"
 				+ "  \"phone_number\": \"(+91) 4543546\",\r\n"
-				+ "  \"address\": \"29, side layout, cohen 09\",\r\n"
+				+ "  \"address\": \"cumming,Atlanta\",\r\n"
 				+ "  \"types\": [\r\n"
 				+ "    \"Dominos\",\r\n"
 				+ "    \"KFC\"\r\n"

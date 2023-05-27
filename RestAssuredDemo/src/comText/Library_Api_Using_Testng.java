@@ -33,4 +33,3 @@ public class Library_Api_Using_Testng
 		return new Object[][] {{"ojfwty","9363"},{"cwetee","4253"}, {"okmfet","533"} };
 	}
 }
- 
