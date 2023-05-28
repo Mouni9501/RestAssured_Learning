@@ -1,4 +1,4 @@
-package comText;
+package Pojo_Examples;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class Pojo_Example
         this.email = email;
     }
 
-    public int getAge() {
+    public int  getAge() {
         return age;
     }
 

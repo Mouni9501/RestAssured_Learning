@@ -1,4 +1,4 @@
-package comText;
+package Pojo_Examples;
 
 public class Address
 {

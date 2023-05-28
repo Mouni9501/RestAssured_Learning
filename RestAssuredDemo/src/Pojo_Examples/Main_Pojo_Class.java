@@ -1,9 +1,9 @@
-package comText;
+package Pojo_Examples;
 
+import Pojo_Examples.Address;
+import Pojo_Examples.Pojo_Example;
 import io.restassured.path.json.JsonPath;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import static io.restassured.RestAssured.given;
@@ -28,8 +28,9 @@ public class Main_Pojo_Class {
         arrayList.add("sports");
         pojoExample.setInterests(arrayList);
         //System.out.println(pojoExample);
-        JsonPath js = new JsonPath(String.valueOf(pojoExample));
-        System.out.println(js.getString("name"));
+       // JsonPath js = new JsonPath(String.valueOf(pojoExample));
+      //  System.out.println(js.getString(pojoExample.getEmail()));
+        //System.out.println(js.getString("name"));
         given().log().all().queryParam("key","qaclick123")
                 .header("Content-Type","application/json").
                 body(pojoExample)
