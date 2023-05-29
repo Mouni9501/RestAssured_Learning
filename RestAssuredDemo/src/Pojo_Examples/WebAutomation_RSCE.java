@@ -1,6 +1,6 @@
 package Pojo_Examples;
 
-import javax.print.attribute.IntegerSyntax;
+
 import java.util.List;
 
 public class WebAutomation_RSCE {

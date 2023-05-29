@@ -4,15 +4,15 @@ import java.util.Date;
 
 public class ForecastSE
 {
-   private Date date;
+   private String date;
     private TemperatureSE temperature;
     private String description;
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

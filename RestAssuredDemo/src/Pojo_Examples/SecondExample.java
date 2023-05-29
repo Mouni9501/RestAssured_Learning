@@ -1,10 +1,12 @@
 package Pojo_Examples;
 
+import java.util.List;
+
 public class SecondExample
 {
     private LocationSE location;
     private Current_WeatherSE current_weather;
-    private ForecastSE forecast;
+    private List<ForecastSE> forecast;
     public LocationSE getLocation() {
         return location;
     }
@@ -18,11 +20,11 @@ public class SecondExample
         this.current_weather = current_weather;
     }
 
-    public ForecastSE getForecast() {
+    public List<ForecastSE> getForecast() {
         return forecast;
     }
 
-    public void setForecast(ForecastSE forecast) {
+    public void setForecast(List<ForecastSE> forecast) {
         this.forecast = forecast;
     }
 }
