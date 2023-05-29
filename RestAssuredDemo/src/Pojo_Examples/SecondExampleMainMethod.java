@@ -51,7 +51,7 @@ public class SecondExampleMainMethod
         forecastAl.add(forecastSE1);
         forecastAl.add(forecastSE2);
         secondExample.setForecast(forecastAl);
-        
+
 
         given().log().all().queryParam("key","qaclick123")
                 .header("Content-Type","application/json").
